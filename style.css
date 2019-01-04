@@ -1,0 +1,19 @@
+body {
+  background: #0f0f23;
+  color: #cccccc;
+  font-family: "Source Code Pro", monospace;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
