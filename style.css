@@ -1,7 +1,6 @@
 body {
-  background: #0f0f23;
-  color: #cccccc;
-  font-family: "Source Code Pro", monospace;
+  background: #333;
+  color: #ccc;
 }
 
 .container {
@@ -16,4 +15,15 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 4em;
+	margin: 0.2em;
+}
+
+a:hover {
+	color: #fff;
 }
