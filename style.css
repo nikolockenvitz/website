@@ -1,6 +1,8 @@
-body {
+html, body {
   background: #333;
   color: #ccc;
+  height: 100%;
+  overflow: hidden;
 }
 
 .container {
