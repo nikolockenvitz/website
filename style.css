@@ -1,31 +1,33 @@
-html, body {
+body {
   background: #333;
   color: #ccc;
   height: 100%;
-  overflow: hidden;
+}
+
+.main {
+  height: 100%;
 }
 
 .container {
-  height: 100%;
-  position: relative;
+  margin-top: 5vh;
+  text-align: center;
+}
+.container:first-child {
+  margin-top: 20vh;
 }
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.main-picture {
+  height: 200px;
+  border-radius: 100px;
 }
 
-a {
-	text-decoration: none;
-	color: inherit;
-	font-size: 4em;
-	margin: 0.2em;
+a.fab {
+  text-decoration: none;
+  color: inherit;
+  font-size: 4em;
+  margin: 0.2em;
 }
 
-a:hover {
-	color: #fff;
+a.fab:hover {
+  color: #fff;
 }
