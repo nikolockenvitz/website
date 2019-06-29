@@ -18,16 +18,16 @@ body {
 
 .main-picture {
   height: 200px;
-  border-radius: 100px;
+  border-radius: 32px;
 }
 
-a.fab {
+a.fab, a.fas, a.far {
   text-decoration: none;
   color: inherit;
   font-size: 4em;
   margin: 0.2em;
 }
 
-a.fab:hover {
+a.fab:hover, a.fas:hover, a.far:hover {
   color: #fff;
 }
