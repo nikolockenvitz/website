@@ -2,6 +2,8 @@ body {
   background: #333;
   color: #ccc;
   height: 100%;
+  
+  font-family: "Courier New", Courier, monospace;
 }
 
 .main {
