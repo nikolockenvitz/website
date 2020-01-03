@@ -1,13 +1,22 @@
+html{
+  height:100%;
+}
 body {
+  margin: 0;
   background: #333;
   color: #ccc;
   height: 100%;
   
   font-family: "Courier New", Courier, monospace;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
 
 .main {
-  height: 100%;
+  width: 100%;
+  flex: 1 0 auto;
 }
 
 .container {
@@ -16,6 +25,12 @@ body {
 }
 .container:first-child {
   margin-top: 20vh;
+}
+
+footer {
+  flex: none;
+  padding: 1.2em;
+  text-align: center;
 }
 
 .main-picture {
