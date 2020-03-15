@@ -38,6 +38,11 @@ footer {
   border-radius: 32px;
 }
 
+a.no-highlighting {
+  text-decoration: none;
+  color: inherit;
+}
+
 a.fab, a.fas, a.far {
   text-decoration: none;
   color: inherit;
