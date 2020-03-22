@@ -20,11 +20,21 @@ body {
 }
 
 .container {
-  margin-top: 5vh;
+  margin: 8vh 0;
   text-align: center;
 }
 .container:first-child {
-  margin-top: 20vh;
+  margin-top: 15vh;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 footer {
@@ -34,22 +44,38 @@ footer {
 }
 
 .main-picture {
-  height: 200px;
-  border-radius: 32px;
+  max-height: 200px;
+  max-width: 70vw;
+  object-fit: contain;
+  border-radius: 16%;
 }
 
 a.no-highlighting {
   text-decoration: none;
+  outline: none;
   color: inherit;
+  display: inline-block;
+  height: 0;
 }
 
-a.fab, a.fas, a.far {
-  text-decoration: none;
-  color: inherit;
-  font-size: 4em;
-  margin: 0.2em;
+.svg-icon-box {
+  position: relative;
+  display: inline-block;
+  margin: 2vmin 2vmin;
 }
-
-a.fab:hover, a.fas:hover, a.far:hover {
-  color: #fff;
+.svg-icon-box, .svg-icon-box img {
+  width: 4em;
+  height: 4em;
+  max-width: 40vw;
+  opacity: 0.8;
+}
+.svg-icon-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+}
+.svg-icon-box img:hover,
+.svg-icon-box a:focus img {
+  opacity: 1;
 }
