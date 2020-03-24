@@ -50,12 +50,31 @@ footer {
   border-radius: 16%;
 }
 
+a {
+  color: inherit;
+}
 a.no-highlighting {
   text-decoration: none;
   outline: none;
-  color: inherit;
   display: inline-block;
   height: 0;
+}
+a.reference {
+  text-decoration: none;
+}
+a.reference:focus,
+a.reference:hover {
+  text-decoration: underline;
+}
+a.reference::before {
+  content: "[";
+  text-decoration: none;
+  display: inline-block;
+}
+a.reference::after {
+  content: "]";
+  text-decoration: none;
+  display: inline-block;
 }
 
 .svg-icon-box {
@@ -78,4 +97,17 @@ a.no-highlighting {
 .svg-icon-box img:hover,
 .svg-icon-box a:focus img {
   opacity: 1;
+}
+
+.container.container-text {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5vw;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  /*margin: 0;
+  padding: 0;*/
 }
