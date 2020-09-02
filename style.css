@@ -85,7 +85,7 @@ a.reference::after {
 .svg-icon-box, .svg-icon-box img {
   width: 4em;
   height: 4em;
-  max-width: 40vw;
+  max-width: 15vw;
   opacity: 0.8;
 }
 .svg-icon-box img {
