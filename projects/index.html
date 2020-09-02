@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nikolockenvitz.de - Projects</title>
+
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="data.js" type="text/javascript" defer></script>
+  <script src="util.js" type="text/javascript" defer></script>
+  <script src="main.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="page-title">Projects & Contributions</div>
+    <div class="card-container">
+      <template data-template-id="card">
+        <div class="card">
+          <img src="./img/matrix-400x150.png" data-template-id="thumbnail">
+          <div class="title">
+            <div class="max-lines" data-template-id="title"></div>
+            <div class="subtitle" data-template-id="subtitle-wrapper">
+              <span data-template-id="time-wrapper"><span data-template-id="from"></span><span
+                  data-template-id="to-wrapper"> &ndash; <span data-template-id="to"></span></span></span>
+              <span class="stars" data-template-id="star-wrapper">
+                <svg viewBox="0 0 100 100" style="height: 16px; width: 16px;" class="star filled">
+                  <polygon
+                    points="50,10 39.4,35.4 10.1,37 32.9,55.6 25.3,84 50,68, 74.7,84 67.1,55.6 89.9,37 60.6,35.4">
+                  </polygon>
+                </svg><span data-template-id="star-count"></span></span>
+              <span data-template-id="contributed"></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines" data-template-id="description"></div>
+          </div>
+          <div class="links" data-template-id="links-wrapper"></div>
+        </div>
+      </template>
+    </div>
+  </div>
+</body>
+
+</html>
