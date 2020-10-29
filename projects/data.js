@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: 5,
+      githubStars: 6,
     },
   },
   {
@@ -29,6 +29,21 @@ const projects = [
     ],
     stats: {
       githubStars: 7,
+    },
+  },
+  {
+    title: "tg-status-bot",
+    description: "Personal Telegram Bot to regularly execute certain actions (e.g. web scraping) and send notifications",
+    from: "2020-09",
+    to: undefined,
+    images: {
+      thumbnail: "./img/telegram.png",
+    },
+    links: [
+      { url: "https://github.com/nikolockenvitz/tg-status-bot", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 0,
     },
   },
   {
@@ -140,6 +155,21 @@ const projects = [
     },
   },
   {
+    title: "RCJ Notification Bot",
+    description: "Bot notifying teams about schedule and events (WhatsApp, Signal, Telegram)",
+    from: "2020-09",
+    to: undefined,
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://github.com/rcjberlin/rcj-notification-bot", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
     title: "RCJ Server",
     description: "Back end for RCJ DSS to store runs and enable live results",
     from: "2020-01",
@@ -197,6 +227,40 @@ const projects = [
     },
   },
   {
+    title: "kek",
+    description: "Deno command line utility with simple scripts",
+    from: "2020-10",
+    to: "2020-10",
+    images: {
+      thumbnail: "./img/deno-tpm.png",
+    },
+    links: [
+      { url: "https://deno.land/x/kek", name: "deno.land/x" },
+      { url: "https://nest.land/package/kek", name: "nest.land" },
+      { url: "https://github.com/hackathon-sidn/deno-kek", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 4,
+    },
+  },
+  {
+    title: "cors-proxy",
+    description: "CORS proxy fetching remote URLs and adding CORS headers",
+    from: "2020-10",
+    to: "2020-10",
+    images: {
+      thumbnail: "./img/deno-tpm.png",
+    },
+    links: [
+      { url: "https://deno.land/x/cors_proxy", name: "deno.land/x" },
+      { url: "https://nest.land/package/cors-proxy", name: "nest.land" },
+      { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 2,
+    },
+  },
+  {
     title: "ExoPlan",
     description: "Project at DHBW Mannheim to help directors of studies plan and schedule lectures",
     from: "2019-11",
@@ -236,7 +300,7 @@ const projects = [
     },
     links: [
       { url: "https://nikolockenvitz.de/gesetz/", name: "Web App" },
-      { url: "https://github.com/nikolockenvitz/tools/tree/master/laws", name: "GitHub" },
+      { url: "https://github.com/nikolockenvitz/german-laws", name: "GitHub" },
     ],
     stats: {
       githubStars: 0,
@@ -360,7 +424,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/daf", name: "GitHub" }],
     stats: {
-      githubStars: "27",
+      githubStars: "32",
     },
     contributed: true,
   },
@@ -374,7 +438,21 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "70",
+      githubStars: "73",
+    },
+    contributed: true,
+  },
+  {
+    title: "ethr-did-resolver",
+    description: "DID resolver for Ethereum Addresses",
+    from: "2020-09",
+    to: "2020-10",
+    images: {
+      thumbnail: "./img/uport.png",
+    },
+    links: [{ url: "https://github.com/uport-project/ethr-did-resolver", name: "GitHub" }],
+    stats: {
+      githubStars: "44",
     },
     contributed: true,
   },
@@ -388,7 +466,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "95",
+      githubStars: "100",
     },
     contributed: true,
   },
@@ -405,7 +483,7 @@ const projects = [
       { url: "https://github.com/michael-spengler/countries", name: "GitHub" },
     ],
     stats: {
-      githubStars: 5,
+      githubStars: 7,
     },
     contributed: true,
   },
@@ -419,7 +497,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "9.2k",
+      githubStars: "9.5k",
     },
     contributed: true,
   },
@@ -436,7 +514,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "13.6k",
+      githubStars: "13.9k",
     },
     contributed: true,
   },
