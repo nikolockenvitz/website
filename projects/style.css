@@ -48,7 +48,7 @@ body {
   --spacing-y: 12px;
 
   width: var(--card-width);
-  cursor: pointer;
+  /*cursor: pointer;*/
   background-color: #333;
   color: #eee;
   border-radius: var(--border-radius);

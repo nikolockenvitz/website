@@ -12,14 +12,14 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: 6,
+      githubStars: 7,
     },
   },
   {
     title: "Fancy Flashcard",
     description: "Lightweight free/libre and open-source PWA to help you learning on all your devices",
     from: "2020-05",
-    to: undefined,
+    to: "2020-09",
     images: {
       thumbnail: "./img/fancy-flashcard-darkbg-400x150.png",
     },
@@ -214,7 +214,7 @@ const projects = [
     title: "Random Mix",
     description: "Deno module to create random lists based on some discrete probability distribution",
     from: "2020-08",
-    to: undefined,
+    to: "2020-08",
     images: {
       thumbnail: "./img/deno-tpm.png",
     },
@@ -257,7 +257,7 @@ const projects = [
       { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
     ],
     stats: {
-      githubStars: 2,
+      githubStars: 3,
     },
   },
   {
@@ -410,7 +410,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "18",
+      githubStars: "23",
     },
     contributed: true,
   },
@@ -418,13 +418,13 @@ const projects = [
     title: "daf",
     description: "DID Agent Framework",
     from: "2020-03",
-    to: "2020-08",
+    to: undefined,
     images: {
       thumbnail: "./img/uport.png",
     },
     links: [{ url: "https://github.com/uport-project/daf", name: "GitHub" }],
     stats: {
-      githubStars: "32",
+      githubStars: "36",
     },
     contributed: true,
   },
@@ -438,7 +438,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "73",
+      githubStars: "77",
     },
     contributed: true,
   },
@@ -446,13 +446,13 @@ const projects = [
     title: "ethr-did-resolver",
     description: "DID resolver for Ethereum Addresses",
     from: "2020-09",
-    to: "2020-10",
+    to: undefined,
     images: {
       thumbnail: "./img/uport.png",
     },
-    links: [{ url: "https://github.com/uport-project/ethr-did-resolver", name: "GitHub" }],
+    links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "44",
+      githubStars: "48",
     },
     contributed: true,
   },
@@ -466,7 +466,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "100",
+      githubStars: "108",
     },
     contributed: true,
   },
@@ -474,7 +474,7 @@ const projects = [
     title: "Countries Module",
     description: "Deno module which provides information about countries",
     from: "2020-08",
-    to: undefined,
+    to: "2020-08",
     images: {
       thumbnail: "./img/deno-tpm.png",
     },
@@ -497,7 +497,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "9.5k",
+      githubStars: "9.7k",
     },
     contributed: true,
   },
@@ -514,7 +514,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "13.9k",
+      githubStars: "14.1k",
     },
     contributed: true,
   },
