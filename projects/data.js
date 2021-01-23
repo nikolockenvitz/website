@@ -39,9 +39,7 @@ const projects = [
     images: {
       thumbnail: "./img/telegram.png",
     },
-    links: [
-      { url: "https://github.com/nikolockenvitz/tg-status-bot", name: "GitHub" },
-    ],
+    links: [{ url: "https://github.com/nikolockenvitz/tg-status-bot", name: "GitHub" }],
     stats: {
       githubStars: 0,
     },
@@ -83,9 +81,7 @@ const projects = [
     images: {
       thumbnail: undefined,
     },
-    links: [
-      { url: "https://github.com/nikolockenvitz/browser-extension-helper", name: "GitHub" },
-    ],
+    links: [{ url: "https://github.com/nikolockenvitz/browser-extension-helper", name: "GitHub" }],
     stats: {
       githubStars: 0,
     },
@@ -162,9 +158,7 @@ const projects = [
     images: {
       thumbnail: undefined,
     },
-    links: [
-      { url: "https://github.com/rcjberlin/rcj-notification-bot", name: "GitHub" },
-    ],
+    links: [{ url: "https://github.com/rcjberlin/rcj-notification-bot", name: "GitHub" }],
     stats: {
       githubStars: 0,
     },
@@ -294,7 +288,7 @@ const projects = [
     title: "German Laws",
     description: "Web App to fetch and display German laws",
     from: "2020-05",
-    to: "2020-08",
+    to: "2021-01",
     images: {
       thumbnail: "./img/laws.png",
     },
@@ -415,16 +409,19 @@ const projects = [
     contributed: true,
   },
   {
-    title: "daf",
-    description: "DID Agent Framework",
+    title: "Veramo",
+    description: "A JavaScript Framework for Verifiable Data (fka DID Agent Framework)",
     from: "2020-03",
     to: undefined,
     images: {
       thumbnail: "./img/uport.png",
     },
-    links: [{ url: "https://github.com/uport-project/daf", name: "GitHub" }],
+    links: [
+      { url: "https://github.com/uport-project/veramo", name: "GitHub" },
+      { url: "https://veramo.io/", name: "veramo.io" },
+    ],
     stats: {
-      githubStars: "36",
+      githubStars: "50",
     },
     contributed: true,
   },
@@ -438,7 +435,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "77",
+      githubStars: "80",
     },
     contributed: true,
   },
@@ -452,7 +449,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "48",
+      githubStars: "49",
     },
     contributed: true,
   },
@@ -466,7 +463,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "108",
+      githubStars: "114",
     },
     contributed: true,
   },
@@ -497,7 +494,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "9.7k",
+      githubStars: "10.1k",
     },
     contributed: true,
   },
@@ -514,7 +511,24 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "14.1k",
+      githubStars: "19.1k",
+    },
+    contributed: true,
+  },
+  {
+    title: "MoneyWallet",
+    description: "An Android application that lets you track your expenses",
+    from: "2020-12",
+    to: "2020-12",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://f-droid.org/en/packages/com.oriondev.moneywallet/", name: "F-Droid" },
+      { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: "213",
     },
     contributed: true,
   },
