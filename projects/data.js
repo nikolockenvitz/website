@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: 7,
+      githubStars: 13,
     },
   },
   {
@@ -251,7 +251,7 @@ const projects = [
       { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
     ],
     stats: {
-      githubStars: 3,
+      githubStars: 5,
     },
   },
   {
@@ -421,7 +421,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "50",
+      githubStars: "69",
     },
     contributed: true,
   },
@@ -435,7 +435,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "80",
+      githubStars: "90",
     },
     contributed: true,
   },
@@ -449,7 +449,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "49",
+      githubStars: "54",
     },
     contributed: true,
   },
@@ -463,7 +463,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "114",
+      githubStars: "127",
     },
     contributed: true,
   },
@@ -494,7 +494,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "10.1k",
+      githubStars: "10.5k",
     },
     contributed: true,
   },
@@ -511,7 +511,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "19.1k",
+      githubStars: "20.1k",
     },
     contributed: true,
   },
@@ -528,7 +528,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "213",
+      githubStars: "236",
     },
     contributed: true,
   },
@@ -560,6 +560,23 @@ const projects = [
     links: [{ url: "https://commonvoice.mozilla.org", name: "Common Voice" }],
     stats: {
       githubStars: 0,
+    },
+    contributed: true,
+  },
+  {
+    title: "Hanab Live",
+    description: "A web server that allows people to play Hanab, a cooperative card game of logic and reasoning.",
+    from: "2021-03",
+    to: "2021-03",
+    images: {
+      thumbnail: "./img/hanab-live-2.png",
+    },
+    links: [
+      { url: "https://hanab.live/", name: "Hanab Live" },
+      { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 117,
     },
     contributed: true,
   },
