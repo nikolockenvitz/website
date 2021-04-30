@@ -421,7 +421,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "69",
+      githubStars: "88",
     },
     contributed: true,
   },
@@ -435,7 +435,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "90",
+      githubStars: "96",
     },
     contributed: true,
   },
@@ -449,7 +449,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "54",
+      githubStars: "60",
     },
     contributed: true,
   },
@@ -463,7 +463,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "127",
+      githubStars: "139",
     },
     contributed: true,
   },
@@ -494,7 +494,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "10.5k",
+      githubStars: "10.7k",
     },
     contributed: true,
   },
@@ -511,7 +511,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "20.1k",
+      githubStars: "20.5k",
     },
     contributed: true,
   },
@@ -528,7 +528,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "236",
+      githubStars: "247",
     },
     contributed: true,
   },
@@ -576,9 +576,25 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: 117,
+      githubStars: 118,
     },
     contributed: true,
+  },
+  {
+    title: "SoK: Multi-Device Secure Instant Messaging",
+    description: "Paper on multi-device messaging as result of a seminar at HPI",
+    from: "2020-11",
+    to: "2021-04",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://eprint.iacr.org/2021/498", name: "IACR ePrint" },
+      { url: "https://eprint.iacr.org/2021/498.pdf", name: "PDF" },
+    ],
+    stats: {
+      githubStars: 0,
+    },
   },
 ];
 
