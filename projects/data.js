@@ -53,7 +53,7 @@ const projects = [
       thumbnail: "./img/qr-pwa.png",
     },
     links: [
-      { url: "https://nikolockenvitz.de/qr", name: "QR PWA" },
+      { url: "https://nikolockenvitz.github.io/qr-pwa", name: "QR PWA" },
       { url: "https://github.com/nikolockenvitz/qr-pwa", name: "GitHub" },
     ],
     stats: {
@@ -167,7 +167,7 @@ const projects = [
     title: "RCJ Server",
     description: "Back end for RCJ DSS to store runs and enable live results",
     from: "2020-01",
-    to: "2020-03",
+    to: undefined,
     images: {
       thumbnail: undefined,
     },
@@ -356,6 +356,22 @@ const projects = [
     },
   },
   {
+    title: "Speaker Notes",
+    description: "Web App to show presentation notes with a time forecast",
+    from: "2021-05",
+    to: "2021-05",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://nikolockenvitz.github.io/speaker-notes", name: "Web App" },
+      { url: "https://github.com/nikolockenvitz/speaker-notes", name: "GitHub" }
+    ],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
     title: "RCJ Rescue Line",
     description: "Participating in RoboCup Junior Rescue Line several times",
     from: "2013-03",
@@ -421,7 +437,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "88",
+      githubStars: "98",
     },
     contributed: true,
   },
@@ -435,7 +451,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "96",
+      githubStars: "101",
     },
     contributed: true,
   },
@@ -449,7 +465,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "60",
+      githubStars: "63",
     },
     contributed: true,
   },
@@ -463,7 +479,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "139",
+      githubStars: "170",
     },
     contributed: true,
   },
@@ -494,7 +510,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "10.7k",
+      githubStars: "10.9k",
     },
     contributed: true,
   },
@@ -511,7 +527,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "20.5k",
+      githubStars: "20.7k",
     },
     contributed: true,
   },
@@ -528,7 +544,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "247",
+      githubStars: "258",
     },
     contributed: true,
   },
@@ -576,7 +592,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: 118,
+      githubStars: "122",
     },
     contributed: true,
   },
