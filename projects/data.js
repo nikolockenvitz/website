@@ -428,7 +428,7 @@ const projects = [
     title: "Veramo",
     description: "A JavaScript Framework for Verifiable Data (fka DID Agent Framework)",
     from: "2020-03",
-    to: undefined,
+    to: "2020-11",
     images: {
       thumbnail: "./img/uport.png",
     },
@@ -437,7 +437,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "98",
+      githubStars: "116",
     },
     contributed: true,
   },
@@ -451,7 +451,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "101",
+      githubStars: "108",
     },
     contributed: true,
   },
@@ -459,13 +459,13 @@ const projects = [
     title: "ethr-did-resolver",
     description: "DID resolver for Ethereum Addresses",
     from: "2020-09",
-    to: undefined,
+    to: "2020-12",
     images: {
       thumbnail: "./img/uport.png",
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "63",
+      githubStars: "68",
     },
     contributed: true,
   },
@@ -479,7 +479,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "170",
+      githubStars: "180",
     },
     contributed: true,
   },
@@ -510,7 +510,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "10.9k",
+      githubStars: "11.3k",
     },
     contributed: true,
   },
@@ -527,7 +527,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "20.7k",
+      githubStars: "21k",
     },
     contributed: true,
   },
@@ -544,7 +544,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "258",
+      githubStars: "282",
     },
     contributed: true,
   },
@@ -592,7 +592,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "122",
+      githubStars: "127",
     },
     contributed: true,
   },
