@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nikolockenvitz.de - Projects</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="scrollbar-width-handler.js" type="text/javascript" defer></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="page-title">{{title}}</div>
+      <div class="card-container">
+        {{#projects}}
+        <div class="card">
+          <img src="{{^images.thumbnail}}./img/matrix-400x150.png{{/images.thumbnail}}{{#images.thumbnail}}{{{images.thumbnail}}}{{/images.thumbnail}}" />
+          <div class="title">
+            <div class="max-lines">{{title}}</div>
+            <div class="subtitle">
+              <span><span>{{{computed.timeFrom}}}</span>{{#computed.timeTo}}<span> &ndash; <span>{{{computed.timeTo}}}</span></span>{{/computed.timeTo}}</span>
+              {{#stats.place}}
+              <span class="trophy">
+                <img src="./img/trophy.svg" />
+                <span>{{stats.place}}</span>
+              </span>
+              {{/stats.place}}
+              {{#stats.githubStars}}
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>{{stats.githubStars}}</span>
+              </span>
+              {{/stats.githubStars}}
+              {{#computed.contributed}}
+              <span>{{computed.contributed}}</span>
+              {{/computed.contributed}}
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">{{description}}</div>
+          </div>
+          <div class="links">
+            {{#links}}
+            <a href="{{{url}}}">{{name}}</a>
+            {{/links}}
+          </div>
+        </div>
+        {{/projects}}
+      </div>
+    </div>
+  </body>
+</html>

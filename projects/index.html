@@ -1,46 +1,813 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nikolockenvitz.de - Projects</title>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nikolockenvitz.de - Projects</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="scrollbar-width-handler.js" type="text/javascript" defer></script>
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="./style.css" />
-  <script src="data.js" type="text/javascript" defer></script>
-  <script src="util.js" type="text/javascript" defer></script>
-  <script src="main.js" type="text/javascript" defer></script>
-</head>
-
-<body>
-  <div class="main">
-    <div class="page-title">Projects & Contributions</div>
-    <div class="card-container">
-      <template data-template-id="card">
+  <body>
+    <div class="main">
+      <div class="page-title">Projects &amp; Contributions</div>
+      <div class="card-container">
         <div class="card">
-          <img src="./img/matrix-400x150.png" data-template-id="thumbnail">
+          <img src="./img/sap-addon-4.png" />
           <div class="title">
-            <div class="max-lines" data-template-id="title"></div>
-            <div class="subtitle" data-template-id="subtitle-wrapper">
-              <span data-template-id="time-wrapper"><span data-template-id="from"></span><span
-                  data-template-id="to-wrapper"> &ndash; <span data-template-id="to"></span></span></span>
-              <span class="stars" data-template-id="star-wrapper">
-                <svg viewBox="0 0 100 100" style="height: 16px; width: 16px;" class="star filled">
-                  <polygon
-                    points="50,10 39.4,35.4 10.1,37 32.9,55.6 25.3,84 50,68, 74.7,84 67.1,55.6 89.9,37 60.6,35.4">
-                  </polygon>
-                </svg><span data-template-id="star-count"></span></span>
-              <span data-template-id="contributed"></span>
+            <div class="max-lines">SAP Addon</div>
+            <div class="subtitle">
+              <span><span>03/2020</span><span> &ndash; <span>now</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>7</span>
+              </span>
             </div>
           </div>
           <div class="description">
-            <div class="max-lines" data-template-id="description"></div>
+            <div class="max-lines">Firefox&#x2F;Chrome Extension for SAP related webpages</div>
           </div>
-          <div class="links" data-template-id="links-wrapper"></div>
+          <div class="links">
+            <a href="https://nikolockenvitz.github.io/sap-addon">Installation</a>
+            <a href="https://github.com/nikolockenvitz/sap-addon">GitHub</a>
+          </div>
         </div>
-      </template>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Rescue Line League Chair</div>
+            <div class="subtitle">
+              <span><span>2019 & 2020</span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Organizing and managing Rescue Line at RoboCup Junior Berlin</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/rcjberlin">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/rcj-dss.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Digital Scoring Sheet</div>
+            <div class="subtitle">
+              <span><span>08/2019</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">RoboCup Junior Rescue Line: Digital Scoring Sheet (used at RCJ Berlin 2020)</div>
+          </div>
+          <div class="links">
+            <a href="https://rcjberlin.github.io/rcj-dss/">RCJ DSS</a>
+            <a href="https://github.com/rcjberlin/rcj-dss">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Evaluation &amp; Results</div>
+            <div class="subtitle">
+              <span><span>01/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Calculate standings and display live results for RCJ Berlin</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/rcjberlin/evaluation">Evaluation</a>
+            <a href="https://github.com/rcjberlin/rcjberlin.github.io">Live Results</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/rcj-rescue-clock-logo.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Rescue Clock</div>
+            <div class="subtitle">
+              <span><span>02/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Progressive Web App to stop time during RoboCup Junior Rescue</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.github.io/rcj-rescue-clock">RCJ Rescue Clock</a>
+            <a href="https://github.com/nikolockenvitz/rcj-rescue-clock">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Browser Extension Helper</div>
+            <div class="subtitle">
+              <span><span>04/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Opinionated Node.js package to help building and deploying browser extensions</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/browser-extension-helper">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/local-image-viewer-firefox.png" />
+          <div class="title">
+            <div class="max-lines">Local Image Viewer</div>
+            <div class="subtitle">
+              <span><span>04/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Firefox Extension to navigate through local images with arrow keys</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/local-image-viewer">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/qr-pwa.png" />
+          <div class="title">
+            <div class="max-lines">QR PWA</div>
+            <div class="subtitle">
+              <span><span>04/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Progressive Web App to create and scan QR codes</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.github.io/qr-pwa">QR PWA</a>
+            <a href="https://github.com/nikolockenvitz/qr-pwa">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Notification Bot</div>
+            <div class="subtitle">
+              <span><span>09/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Bot notifying teams about schedule and events (WhatsApp, Signal, Telegram)</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/rcjberlin/rcj-notification-bot">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/telegram.png" />
+          <div class="title">
+            <div class="max-lines">tg-status-bot</div>
+            <div class="subtitle">
+              <span><span>09/2020</span><span> &ndash; <span>now</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Personal Telegram Bot to regularly execute certain actions (e.g. web scraping) and send notifications</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/tg-status-bot">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/osm-streetcomplete.png" />
+          <div class="title">
+            <div class="max-lines">OpenStreetMap</div>
+            <div class="subtitle">
+              <span><span>05/2018</span><span> &ndash; <span>now</span></span></span>
+              <span>contributing</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Improving and enhancing the data of OpenStreetMap</div>
+          </div>
+          <div class="links">
+            <a href="https://openstreetmap.org">OpenStreetMap</a>
+            <a href="https://github.com/westnordost/StreetComplete#readme">StreetComplete</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/common-voice-mars.png" />
+          <div class="title">
+            <div class="max-lines">Common Voice</div>
+            <div class="subtitle">
+              <span><span>06/2018</span><span> &ndash; <span>now</span></span></span>
+              <span>contributing</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Recording and validating voice clips for Mozilla&#39;s Common Voice project</div>
+          </div>
+          <div class="links">
+            <a href="https://commonvoice.mozilla.org">Common Voice</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Server</div>
+            <div class="subtitle">
+              <span><span>01/2020</span><span> &ndash; <span>now</span></span></span>
+              <span>contributing</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Back end for RCJ DSS to store runs and enable live results</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/rcjberlin/rcj-server">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/dif-400x150.png" />
+          <div class="title">
+            <div class="max-lines">ion-tools</div>
+            <div class="subtitle">
+              <span><span>08/2021</span><span> &ndash; <span>12/2021</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>62</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Tools and utilities to make working with the ION network and using ION DIDs easy peasy lemon squeezy</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/decentralized-identity/ion-tools">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/htb1.png" />
+          <div class="title">
+            <div class="max-lines">HTB University CTF 2021 - Quals</div>
+            <div class="subtitle">
+              <span><span>11/2021</span></span>
+              <span class="trophy">
+                <img src="./img/trophy.svg" />
+                <span>6th</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Successful participation with the Platypwnies (HPI)</div>
+          </div>
+          <div class="links">
+            <a href="https://platypwnies.de/">Platypwnies</a>
+            <a href="https://platypwnies.de/ctfs/htb-x-uni-ctf-2021-qualification/">Writeups</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Logjam Attack: Exploiting Export Ciphers in TLS</div>
+            <div class="subtitle">
+              <span><span>04/2021</span><span> &ndash; <span>08/2021</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">University project implementing Logjam and using HPI Future SOC Lab for DL computation</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/logjam">GitHub</a>
+            <a href="https://github.com/nikolockenvitz/logjam/blob/main/docs/tls-export-ciphers-logjam-demo-512-bit-firefox.mp4?raw=true">Demo Video</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/dif-400x150.png" />
+          <div class="title">
+            <div class="max-lines">did-jwt-vc</div>
+            <div class="subtitle">
+              <span><span>08/2021</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>86</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Create and verify W3C Verifiable Credentials and Presentations in JWT format</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/decentralized-identity/did-jwt-vc">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Speaker Notes</div>
+            <div class="subtitle">
+              <span><span>05/2021</span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Web App to show presentation notes with a time forecast</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.github.io/speaker-notes">Web App</a>
+            <a href="https://github.com/nikolockenvitz/speaker-notes">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">SoK: Multi-Device Secure Instant Messaging</div>
+            <div class="subtitle">
+              <span><span>11/2020</span><span> &ndash; <span>04/2021</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Paper on multi-device messaging as result of a seminar at HPI</div>
+          </div>
+          <div class="links">
+            <a href="https://eprint.iacr.org/2021/498">IACR ePrint</a>
+            <a href="https://eprint.iacr.org/2021/498.pdf">PDF</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/hanab-live-2.png" />
+          <div class="title">
+            <div class="max-lines">Hanab Live</div>
+            <div class="subtitle">
+              <span><span>03/2021</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>129</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">A web server that allows people to play Hanab, a cooperative card game of logic and reasoning.</div>
+          </div>
+          <div class="links">
+            <a href="https://hanab.live/">Hanab Live</a>
+            <a href="https://github.com/Zamiell/hanabi-live">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/laws.png" />
+          <div class="title">
+            <div class="max-lines">German Laws</div>
+            <div class="subtitle">
+              <span><span>05/2020</span><span> &ndash; <span>01/2021</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Web App to fetch and display German laws</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.de/gesetz/">Web App</a>
+            <a href="https://github.com/nikolockenvitz/german-laws">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">MoneyWallet</div>
+            <div class="subtitle">
+              <span><span>12/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>330</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">An Android application that lets you track your expenses</div>
+          </div>
+          <div class="links">
+            <a href="https://f-droid.org/en/packages/com.oriondev.moneywallet/">F-Droid</a>
+            <a href="https://github.com/AndreAle94/moneywallet">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/uport.png" />
+          <div class="title">
+            <div class="max-lines">ethr-did-resolver</div>
+            <div class="subtitle">
+              <span><span>09/2020</span><span> &ndash; <span>12/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>82</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">DID resolver for Ethereum Addresses</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/decentralized-identity/ethr-did-resolver">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/uport.png" />
+          <div class="title">
+            <div class="max-lines">Veramo</div>
+            <div class="subtitle">
+              <span><span>03/2020</span><span> &ndash; <span>11/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>145</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">A JavaScript Framework for Verifiable Data (fka DID Agent Framework)</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/uport-project/veramo">GitHub</a>
+            <a href="https://veramo.io/">veramo.io</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/deno-tpm.png" />
+          <div class="title">
+            <div class="max-lines">cors-proxy</div>
+            <div class="subtitle">
+              <span><span>10/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>5</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">CORS proxy fetching remote URLs and adding CORS headers</div>
+          </div>
+          <div class="links">
+            <a href="https://deno.land/x/cors_proxy">deno.land&#x2F;x</a>
+            <a href="https://nest.land/package/cors-proxy">nest.land</a>
+            <a href="https://github.com/hackathon-sidn/cors-proxy">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/deno-tpm.png" />
+          <div class="title">
+            <div class="max-lines">kek</div>
+            <div class="subtitle">
+              <span><span>10/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>4</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Deno command line utility with simple scripts</div>
+          </div>
+          <div class="links">
+            <a href="https://deno.land/x/kek">deno.land&#x2F;x</a>
+            <a href="https://nest.land/package/kek">nest.land</a>
+            <a href="https://github.com/hackathon-sidn/deno-kek">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/fancy-flashcard-darkbg-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Fancy Flashcard</div>
+            <div class="subtitle">
+              <span><span>05/2020</span><span> &ndash; <span>09/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>13</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Lightweight free&#x2F;libre and open-source PWA to help you learning on all your devices</div>
+          </div>
+          <div class="links">
+            <a href="https://fancy-flashcard.github.io/ffc">Fancy Flashcard</a>
+            <a href="https://github.com/fancy-flashcard/ffc">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/deno-tpm.png" />
+          <div class="title">
+            <div class="max-lines">Random Mix</div>
+            <div class="subtitle">
+              <span><span>08/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>3</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Deno module to create random lists based on some discrete probability distribution</div>
+          </div>
+          <div class="links">
+            <a href="https://deno.land/x/random_mix">deno.land&#x2F;x</a>
+            <a href="https://github.com/fancy-flashcard/random-mix">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/deno-tpm.png" />
+          <div class="title">
+            <div class="max-lines">Countries Module</div>
+            <div class="subtitle">
+              <span><span>08/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>7</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Deno module which provides information about countries</div>
+          </div>
+          <div class="links">
+            <a href="https://deno.land/x/countries">deno.land&#x2F;x</a>
+            <a href="https://github.com/michael-spengler/countries">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/simple-icons.png" />
+          <div class="title">
+            <div class="max-lines">Simple Icons</div>
+            <div class="subtitle">
+              <span><span>08/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>12k</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">SVG icons for popular brands</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/simple-icons/simple-icons">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/exoplan.png" />
+          <div class="title">
+            <div class="max-lines">ExoPlan</div>
+            <div class="subtitle">
+              <span><span>11/2019</span><span> &ndash; <span>07/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>6</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Project at DHBW Mannheim to help directors of studies plan and schedule lectures</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/wwi17seb?q=%22dhbw-project-%22">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/signal-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Signal</div>
+            <div class="subtitle">
+              <span><span>07/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>21.6k</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">A private messenger for Android, iOS, Windows, Mac, and Linux.</div>
+          </div>
+          <div class="links">
+            <a href="https://signal.org/">Signal</a>
+            <a href="https://github.com/signalapp/Signal-Android">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">lock.pyw</div>
+            <div class="subtitle">
+              <span><span>01/2019</span><span> &ndash; <span>06/2020</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Python script to lock your PC once something happens</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/tools/blob/master/lock.pyw">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/uport.png" />
+          <div class="title">
+            <div class="max-lines">ethr-did</div>
+            <div class="subtitle">
+              <span><span>04/2020</span><span> &ndash; <span>06/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>124</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Library for Decentralized Identifiers on Ethereum Blockchain</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/uport-project/ethr-did">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">DHBW LaTeX Template</div>
+            <div class="subtitle">
+              <span><span>10/2018</span><span> &ndash; <span>05/2020</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>23</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">A LaTeX template for Project and Bachelor Thesis, DHBW Mannheim</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/pfisterer/DHBW_LaTeX_Template">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/dif-400x150.png" />
+          <div class="title">
+            <div class="max-lines">did-jwt</div>
+            <div class="subtitle">
+              <span><span>04/2020</span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>208</span>
+              </span>
+              <span>contributed</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Create and verify DID verifiable JWT&#39;s in Javascript</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/decentralized-identity/did-jwt">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/decisionmatrix.png" />
+          <div class="title">
+            <div class="max-lines">Decision Matrix</div>
+            <div class="subtitle">
+              <span><span>12/2019</span><span> &ndash; <span>03/2020</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Web App to create decision matrices</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.de/decisionmatrix">Decision Matrix</a>
+            <a href="https://github.com/nikolockenvitz/decision-matrix">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/pwtry.png" />
+          <div class="title">
+            <div class="max-lines">pwtry.pyw</div>
+            <div class="subtitle">
+              <span><span>02/2019</span><span> &ndash; <span>01/2020</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Simple Python script to memorize a password by repetition</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/tools/blob/master/pwtry.pyw">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/aoc.png" />
+          <div class="title">
+            <div class="max-lines">Advent of Code</div>
+            <div class="subtitle">
+              <span><span>2016, 2017, 2018 & 2019</span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Annual participation in this advent calendar of small programming puzzles</div>
+          </div>
+          <div class="links">
+            <a href="https://adventofcode.com">Advent of Code</a>
+            <a href="https://github.com/nikolockenvitz?tab=repositories&q=aoc">My Solutions</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/rcj-current-delay.png" />
+          <div class="title">
+            <div class="max-lines">RCJ Current Delay</div>
+            <div class="subtitle">
+              <span><span>02/2019</span><span> &ndash; <span>03/2019</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Small Python tool to display current delay at RCJ Berlin</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/tools/blob/master/rcj-current-delay/cd.pyw">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/steganography.png" />
+          <div class="title">
+            <div class="max-lines">Steganography</div>
+            <div class="subtitle">
+              <span><span>03/2019</span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Web App to hide text inside an image</div>
+          </div>
+          <div class="links">
+            <a href="https://nikolockenvitz.de/steganography">Web App</a>
+            <a href="https://github.com/nikolockenvitz/steganography">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/2048-grey.png" />
+          <div class="title">
+            <div class="max-lines">2048</div>
+            <div class="subtitle">
+              <span><span>04/2018</span><span> &ndash; <span>01/2019</span></span></span>
+              <span class="stars">
+                <img src="./img/star.svg" />
+                <span>1</span>
+              </span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Remake of 2048 (as a Python game)</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/nikolockenvitz/2048">GitHub</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Graduation Yearbook</div>
+            <div class="subtitle">
+              <span><span>02/2017</span><span> &ndash; <span>06/2017</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Creating and using a LaTeX template for the school graduation yearbook</div>
+          </div>
+          <div class="links">
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/pi++.jpg" />
+          <div class="title">
+            <div class="max-lines">RCJ Rescue Line</div>
+            <div class="subtitle">
+              <span><span>03/2013</span><span> &ndash; <span>05/2017</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Participating in RoboCup Junior Rescue Line several times</div>
+          </div>
+          <div class="links">
+            <a href="https://www.youtube.com/channel/UC8JwzXIBsrtpdOSy8HrTk8g">YouTube</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./img/matrix-400x150.png" />
+          <div class="title">
+            <div class="max-lines">Substitution Schedule CLI</div>
+            <div class="subtitle">
+              <span><span>01/2016</span><span> &ndash; <span>04/2017</span></span></span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="max-lines">Parsing substitution schedule at school for relevant information</div>
+          </div>
+          <div class="links">
+            <a href="https://github.com/jubi72/archevp_bot">GitHub (Telegram Bot)</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

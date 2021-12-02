@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+svg {
+  stroke-width: 5;
+  stroke-linejoin: round;
+}
+svg polygon {
+  fill: #fc0;
+  stroke: #fc0;
+}
+svg polyline {
+  fill: none;
+  stroke: #fc0;
+  stroke-width: 7;
+}
+    </style>
+    <polygon points="20,90 25,85 45,85 48,65 30,60 20,10 80,10 70,60 52,65 55,85 75,85 80,90" />
+    <polyline points="28,50 16,50 10,20 90,20 84,50 72,50" />
+</svg>

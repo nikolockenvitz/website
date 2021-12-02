@@ -66,6 +66,9 @@ body {
 }
 
 @media only screen and (max-width: 760px) { /* one card per row */
+  :root {
+    --scrollbar-width: 0px;
+  }
   .card {
     --card-width: clamp(320px, calc(100vw - var(--scrollbar-width) - 2 * var(--card-container-padding)), 500px);
   }
@@ -157,7 +160,7 @@ body {
   overflow: hidden;
 }
 
-.card .links .link {
+.card .links a {
   outline: none;
   text-decoration: none;
   color: #eee;
@@ -169,10 +172,10 @@ body {
   height: var(--line-height);
   white-space: nowrap;
 }
-.card .links .link:first-child {
+.card .links a:first-child {
   margin-left: 0;
 }
-.card .links .link:hover {
+.card .links a:hover {
   background-color: #68f;
 }
 
@@ -184,15 +187,14 @@ body {
   -webkit-box-orient: vertical;
 }
 
-svg.star {
-  stroke-width: 5;
-  stroke-linejoin: round;
+.stars img, .trophy img {
+  width: 16px;
+  height: 16px;
 }
-svg.star polygon {
-  fill: #222;
-  stroke: #fc0;
+.trophy img {
+  margin-right: 2px;
 }
-svg.star.filled polygon {
-  fill: #fc0;
-  stroke: #fc0;
+.stars, .trophy {
+  display: flex;
+  align-items: center;
 }

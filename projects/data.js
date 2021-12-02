@@ -269,7 +269,7 @@ const projects = [
   },
   {
     title: "Advent of Code",
-    description: "Annual participating in this advent calendar of small programming puzzles",
+    description: "Annual participation in this advent calendar of small programming puzzles",
     from: "2016-12",
     to: "2019-12",
     timeString: "2016, 2017, 2018 & 2019",
@@ -365,7 +365,7 @@ const projects = [
     },
     links: [
       { url: "https://nikolockenvitz.github.io/speaker-notes", name: "Web App" },
-      { url: "https://github.com/nikolockenvitz/speaker-notes", name: "GitHub" }
+      { url: "https://github.com/nikolockenvitz/speaker-notes", name: "GitHub" },
     ],
     stats: {
       githubStars: 0,
@@ -437,7 +437,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "116",
+      githubStars: "145",
     },
     contributed: true,
   },
@@ -451,7 +451,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "108",
+      githubStars: "124",
     },
     contributed: true,
   },
@@ -465,7 +465,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "68",
+      githubStars: "82",
     },
     contributed: true,
   },
@@ -479,7 +479,35 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "180",
+      githubStars: "208",
+    },
+    contributed: true,
+  },
+  {
+    title: "did-jwt-vc",
+    description: "Create and verify W3C Verifiable Credentials and Presentations in JWT format",
+    from: "2021-08",
+    to: "2021-08",
+    images: {
+      thumbnail: "./img/dif-400x150.png",
+    },
+    links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
+    stats: {
+      githubStars: "86",
+    },
+    contributed: true,
+  },
+  {
+    title: "ion-tools",
+    description: "Tools and utilities to make working with the ION network and using ION DIDs easy peasy lemon squeezy",
+    from: "2021-08",
+    to: "2021-12",
+    images: {
+      thumbnail: "./img/dif-400x150.png",
+    },
+    links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
+    stats: {
+      githubStars: "62",
     },
     contributed: true,
   },
@@ -510,7 +538,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "11.3k",
+      githubStars: "12k",
     },
     contributed: true,
   },
@@ -527,7 +555,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "21k",
+      githubStars: "21.6k",
     },
     contributed: true,
   },
@@ -544,7 +572,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "282",
+      githubStars: "330",
     },
     contributed: true,
   },
@@ -592,7 +620,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "127",
+      githubStars: "129",
     },
     contributed: true,
   },
@@ -610,6 +638,39 @@ const projects = [
     ],
     stats: {
       githubStars: 0,
+    },
+  },
+  {
+    title: "Logjam Attack: Exploiting Export Ciphers in TLS",
+    description: "University project implementing Logjam and using HPI Future SOC Lab for DL computation",
+    from: "2021-04",
+    to: "2021-08",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://github.com/nikolockenvitz/logjam", name: "GitHub" },
+      { url: "https://github.com/nikolockenvitz/logjam/blob/main/docs/tls-export-ciphers-logjam-demo-512-bit-firefox.mp4?raw=true", name: "Demo Video" },
+    ],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
+    title: "HTB University CTF 2021 - Quals",
+    description: "Successful participation with the Platypwnies (HPI)",
+    from: "2021-11",
+    to: "2021-11",
+    images: {
+      thumbnail: "./img/htb1.png",
+    },
+    links: [
+      { url: "https://platypwnies.de/", name: "Platypwnies" },
+      { url: "https://platypwnies.de/ctfs/htb-x-uni-ctf-2021-qualification/", name: "Writeups" }
+    ],
+    stats: {
+      githubStars: 0,
+      place: "6th",
     },
   },
 ];
