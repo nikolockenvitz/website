@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: 7,
+      githubStars: 8,
     },
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: 13,
+      githubStars: 14,
     },
   },
   {
@@ -70,7 +70,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/nikolockenvitz/local-image-viewer", name: "GitHub" }],
     stats: {
-      githubStars: 0,
+      githubStars: 1,
     },
   },
   {
@@ -104,7 +104,7 @@ const projects = [
   },
   {
     title: "RCJ Digital Scoring Sheet",
-    description: "RoboCup Junior Rescue Line: Digital Scoring Sheet (used at RCJ Berlin 2020)",
+    description: "RoboCup Junior Rescue Line: Digital Scoring Sheet (used at RCJ Berlin)",
     from: "2019-08",
     to: undefined,
     images: {
@@ -182,7 +182,7 @@ const projects = [
     description: "Organizing and managing Rescue Line at RoboCup Junior Berlin",
     from: "2019-03",
     to: undefined,
-    timeString: "2019 & 2020",
+    timeString: "since 2019",
     images: {
       thumbnail: undefined,
     },
@@ -411,6 +411,19 @@ const projects = [
     },
   },
   {
+    title: "Dualis Telegram Bot",
+    description: "Fine-tuned a Telegram Bot to check for new grades and notify me + fellow students",
+    from: "2018-09",
+    to: "2020-09",
+    images: {
+      thumbnail: "./img/telegram.png",
+    },
+    links: [],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
     title: "DHBW LaTeX Template",
     description: "A LaTeX template for Project and Bachelor Thesis, DHBW Mannheim",
     from: "2018-10",
@@ -437,7 +450,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "145",
+      githubStars: "192",
     },
     contributed: true,
   },
@@ -451,7 +464,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "124",
+      githubStars: "161",
     },
     contributed: true,
   },
@@ -465,7 +478,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "82",
+      githubStars: "113",
     },
     contributed: true,
   },
@@ -479,7 +492,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "208",
+      githubStars: "236",
     },
     contributed: true,
   },
@@ -493,7 +506,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "86",
+      githubStars: "113",
     },
     contributed: true,
   },
@@ -507,7 +520,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "62",
+      githubStars: "85",
     },
     contributed: true,
   },
@@ -524,7 +537,7 @@ const projects = [
       { url: "https://github.com/michael-spengler/countries", name: "GitHub" },
     ],
     stats: {
-      githubStars: 7,
+      githubStars: 8,
     },
     contributed: true,
   },
@@ -538,7 +551,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "12k",
+      githubStars: "13.4k",
     },
     contributed: true,
   },
@@ -555,7 +568,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "21.6k",
+      githubStars: "22.4k",
     },
     contributed: true,
   },
@@ -572,7 +585,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "330",
+      githubStars: "393",
     },
     contributed: true,
   },
@@ -620,7 +633,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "129",
+      githubStars: "136",
     },
     contributed: true,
   },
@@ -638,6 +651,7 @@ const projects = [
     ],
     stats: {
       githubStars: 0,
+      citations: 1,
     },
   },
   {

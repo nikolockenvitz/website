@@ -34,6 +34,12 @@
                 <span>{{stats.githubStars}}</span>
               </span>
               {{/stats.githubStars}}
+              {{#stats.citations}}
+              <span class="citations">
+                <img src="./img/citation.svg" />
+                <span>{{stats.citations}}</span>
+              </span>
+              {{/stats.citations}}
               {{#computed.contributed}}
               <span>{{computed.contributed}}</span>
               {{/computed.contributed}}

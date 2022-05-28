@@ -193,14 +193,12 @@ body {
   -webkit-box-orient: vertical;
 }
 
-.stars img, .trophy img {
+.stars img, .trophy img, .citations img {
   width: 16px;
   height: 16px;
-}
-.trophy img {
   margin-right: 2px;
 }
-.stars, .trophy {
+.stars, .trophy, .citations {
   display: flex;
   align-items: center;
 }
