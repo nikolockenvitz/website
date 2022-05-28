@@ -1,6 +1,6 @@
 :root {
   --text-size: 16px;
-  --line-height: 19.2px;
+  --line-height: 23px;
 
   --card-container-padding: 32px;
   --scrollbar-width: 17px; /* will be updated by JS */
@@ -52,7 +52,6 @@ body {
   background-color: #333;
   color: #eee;
   border-radius: var(--border-radius);
-  /*padding-bottom: var(--spacing-y);*/
 
   -webkit-box-shadow: 0 8px 24px -8px rgba(72, 72, 64, 0.54);
   box-shadow: 0 8px 24px -8px rgba(72, 72, 64, 0.54);
@@ -106,14 +105,21 @@ body {
 .card .title {
   --text-size: 20px;
   --text-size-subtitle: 12px;
-  --line-height: 24px;
-  --line-height-subtitle: 14.4px;
+  --line-height: 28px;
+  --line-height-subtitle: 17px;
   --margin-subtitle: 8px;
   --max-lines: 2;
 
   font-size: var(--text-size);
   height: calc(var(--max-lines) * var(--line-height) + var(--line-height-subtitle) + var(--margin-subtitle));
   font-weight: bold;
+}
+
+.card .title .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(var(--line-height) * var(--max-lines));
 }
 
 .card .title .subtitle {

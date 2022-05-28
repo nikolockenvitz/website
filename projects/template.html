@@ -17,7 +17,9 @@
         <div class="card">
           <img src="{{^images.thumbnail}}./img/matrix-400x150.png{{/images.thumbnail}}{{#images.thumbnail}}{{{images.thumbnail}}}{{/images.thumbnail}}" />
           <div class="title">
-            <div class="max-lines">{{title}}</div>
+            <div class="title-wrapper">
+              <div class="max-lines">{{title}}</div>
+            </div>
             <div class="subtitle">
               <span><span>{{{computed.timeFrom}}}</span>{{#computed.timeTo}}<span> &ndash; <span>{{{computed.timeTo}}}</span></span>{{/computed.timeTo}}</span>
               {{#stats.place}}
