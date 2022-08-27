@@ -101,6 +101,22 @@ body {
 
   transition: all 0.2s ease-in-out;
 }
+.card .img-wrapper {
+  position: relative;
+}
+.card .img-wrapper .img-note {
+  position: absolute;
+  right: 4px;
+  bottom: 6px;
+  font-size: 8px;
+}
+.card .img-wrapper .img-note a {
+  font-size: inherit;
+  color: inherit;
+}
+.card .img-wrapper .img-note a:not(:hover, :focus, :active) {
+  text-decoration: none;
+}
 
 .card .title {
   --text-size: 20px;

@@ -3,9 +3,13 @@ const Mustache = require("mustache");
 const projects = require("./data");
 const template = fs.readFileSync("template.html", "utf-8");
 
+const crypto = require("crypto");
+const hash = (text) => crypto.createHash("sha256").update(text).digest("base64");
+
 const html = Mustache.render(template, {
   title: "Projects & Contributions",
   projects: projects.sort(projectSortCompareFunction).map(setComputedProperties),
+  cssVersion: encodeURIComponent(hash(fs.readFileSync("style.css"))),
 });
 fs.writeFileSync("index.html", html);
 

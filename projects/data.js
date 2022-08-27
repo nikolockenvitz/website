@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: 8,
+      githubStars: 16,
     },
   },
   {
@@ -178,7 +178,7 @@ const projects = [
     contributed: true,
   },
   {
-    title: "RCJ Rescue Line League Chair",
+    title: "RCJ Rescue Line League Chair (Berlin)",
     description: "Organizing and managing Rescue Line at RoboCup Junior Berlin",
     from: "2019-03",
     to: undefined,
@@ -186,7 +186,24 @@ const projects = [
     images: {
       thumbnail: undefined,
     },
-    links: [{ url: "https://github.com/rcjberlin", name: "GitHub" }],
+    links: [
+      { url: "https://github.com/rcjberlin", name: "GitHub" },
+      { url: "https://robocup-junior.org/", name: "RCJ Berlin" },
+    ],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
+    title: "RCJ Rescue Line Volunteer & Orga (German Open)",
+    description: "Supporting and organizing RCJ Rescue Line at RoboCup German Open Magdeburg/Kassel",
+    from: "2018-04",
+    to: undefined,
+    timeString: "since 2018",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [{ url: "https://robocup.de/", name: "RoboCup Germany" }],
     stats: {
       githubStars: 0,
     },
@@ -251,7 +268,7 @@ const projects = [
       { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
     ],
     stats: {
-      githubStars: 5,
+      githubStars: 6,
     },
   },
   {
@@ -433,7 +450,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "23",
+      githubStars: "43",
     },
     contributed: true,
   },
@@ -450,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "192",
+      githubStars: "237",
     },
     contributed: true,
   },
@@ -464,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "161",
+      githubStars: "183",
     },
     contributed: true,
   },
@@ -478,7 +495,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "113",
+      githubStars: "134",
     },
     contributed: true,
   },
@@ -492,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "236",
+      githubStars: "253",
     },
     contributed: true,
   },
@@ -506,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "113",
+      githubStars: "127",
     },
     contributed: true,
   },
@@ -520,7 +537,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "85",
+      githubStars: "103",
     },
     contributed: true,
   },
@@ -537,7 +554,7 @@ const projects = [
       { url: "https://github.com/michael-spengler/countries", name: "GitHub" },
     ],
     stats: {
-      githubStars: 8,
+      githubStars: 7,
     },
     contributed: true,
   },
@@ -551,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "13.4k",
+      githubStars: "14k",
     },
     contributed: true,
   },
@@ -568,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "22.4k",
+      githubStars: "22.7k",
     },
     contributed: true,
   },
@@ -585,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "393",
+      githubStars: "422",
     },
     contributed: true,
   },
@@ -633,7 +650,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "136",
+      githubStars: "140",
     },
     contributed: true,
   },
@@ -685,6 +702,50 @@ const projects = [
     stats: {
       githubStars: 0,
       place: "6th",
+    },
+  },
+  {
+    title: "saarCTF 2022",
+    description: "Successful participation with the Platypwnies (HPI)",
+    from: "2022-05",
+    to: "2022-05",
+    images: {
+      thumbnail: "./img/saarschleife.jpg",
+      thumbnailNote: {
+        prefix: "Photo by ",
+        link: "https://commons.wikimedia.org/wiki/File:Saarschleife_die_siebenundzwanzigste.jpg",
+        linkText: "Lokilech",
+        suffix: ", CC BY-SA 2.5"
+      },
+    },
+    links: [
+      { url: "https://platypwnies.de/", name: "Platypwnies" },
+      { url: "https://ctftime.org/event/1611", name: "ctftime.org" },
+      { url: "https://ctf.saarland/", name: "saarCTF" },
+
+    ],
+    stats: {
+      githubStars: 0,
+      place: "10th",
+    },
+  },
+  {
+    title: "Google Capture The Flag 2022",
+    description: "Successful participation with the Platypwnies (HPI)",
+    from: "2022-07",
+    to: "2022-07",
+    images: {
+      thumbnail: undefined,
+    },
+    links: [
+      { url: "https://platypwnies.de/", name: "Platypwnies" },
+      { url: "https://ctftime.org/event/1641", name: "ctftime.org" },
+      { url: "https://capturetheflag.withgoogle.com/", name: "Google CTF" },
+
+    ],
+    stats: {
+      githubStars: 0,
+      place: "52nd",
     },
   },
 ];

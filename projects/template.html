@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nikolockenvitz.de - Projects</title>
 
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css{{#cssVersion}}?v={{{cssVersion}}}{{/cssVersion}}" />
     <script src="scrollbar-width-handler.js" type="text/javascript" defer></script>
   </head>
 
@@ -15,7 +15,14 @@
       <div class="card-container">
         {{#projects}}
         <div class="card">
+          {{#images.thumbnailNote}}
+          <div class="img-wrapper">
+          {{/images.thumbnailNote}}
           <img src="{{^images.thumbnail}}./img/matrix-400x150.png{{/images.thumbnail}}{{#images.thumbnail}}{{{images.thumbnail}}}{{/images.thumbnail}}" />
+          {{#images.thumbnailNote}}
+            <span class="img-note">{{images.thumbnailNote.prefix}}<a href="{{{images.thumbnailNote.link}}}">{{images.thumbnailNote.linkText}}</a>{{images.thumbnailNote.suffix}}</span>
+          </div>
+          {{/images.thumbnailNote}}
           <div class="title">
             <div class="title-wrapper">
               <div class="max-lines">{{title}}</div>
