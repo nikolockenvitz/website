@@ -1,7 +1,8 @@
 const fs = require("fs");
+const path = require("path");
 const Mustache = require("mustache");
 const projects = require("./data");
-const template = fs.readFileSync("template.html", "utf-8");
+const template = fs.readFileSync(path.join(__dirname, "template.html"), "utf-8");
 
 const crypto = require("crypto");
 const hash = (text) => crypto.createHash("sha256").update(text).digest("base64");
@@ -9,9 +10,9 @@ const hash = (text) => crypto.createHash("sha256").update(text).digest("base64")
 const html = Mustache.render(template, {
   title: "Projects & Contributions",
   projects: projects.sort(projectSortCompareFunction).map(setComputedProperties),
-  cssVersion: encodeURIComponent(hash(fs.readFileSync("style.css"))),
+  cssVersion: encodeURIComponent(hash(fs.readFileSync(path.join(__dirname, "style.css")))),
 });
-fs.writeFileSync("index.html", html);
+fs.writeFileSync(path.join(__dirname, "index.html"), html);
 
 function projectSortCompareFunction(p1, p2) {
   if (p1.to !== p2.to) {
