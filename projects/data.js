@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "17",
+      githubStars: "18",
     },
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: "15",
+      githubStars: "18",
     },
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/qr-pwa", name: "GitHub" },
     ],
     stats: {
-      githubStars: 0,
+      githubStars: "1",
     },
   },
   {
@@ -268,7 +268,7 @@ const projects = [
       { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
     ],
     stats: {
-      githubStars: "5",
+      githubStars: "6",
     },
   },
   {
@@ -450,7 +450,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "46",
+      githubStars: "53",
     },
     contributed: true,
   },
@@ -467,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "247",
+      githubStars: "279",
     },
     contributed: true,
   },
@@ -481,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "186",
+      githubStars: "202",
     },
     contributed: true,
   },
@@ -495,7 +495,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "134",
+      githubStars: "146",
     },
     contributed: true,
   },
@@ -509,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "256",
+      githubStars: "275",
     },
     contributed: true,
   },
@@ -523,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "129",
+      githubStars: "144",
     },
     contributed: true,
   },
@@ -537,7 +537,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "104",
+      githubStars: "120",
     },
     contributed: true,
   },
@@ -568,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "14.1k",
+      githubStars: "14.9k",
     },
     contributed: true,
   },
@@ -585,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "22.8k",
+      githubStars: "23.3k",
     },
     contributed: true,
   },
@@ -602,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "435",
+      githubStars: "482",
     },
     contributed: true,
   },
@@ -650,7 +650,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "142",
+      githubStars: "152",
     },
     contributed: true,
   },
