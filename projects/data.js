@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "18",
+      githubStars: "20",
     },
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: "18",
+      githubStars: "19",
     },
   },
   {
@@ -106,7 +106,7 @@ const projects = [
     title: "RCJ Digital Scoring Sheet",
     description: "RoboCup Junior Rescue Line: Digital Scoring Sheet (used at RCJ Berlin)",
     from: "2019-08",
-    to: undefined,
+    to: "2022-03",
     images: {
       thumbnail: "./img/rcj-dss.png",
     },
@@ -138,7 +138,7 @@ const projects = [
     title: "RCJ Evaluation & Results",
     description: "Calculate standings and display live results for RCJ Berlin",
     from: "2020-01",
-    to: undefined,
+    to: "2021-12",
     images: {
       thumbnail: undefined,
     },
@@ -154,7 +154,7 @@ const projects = [
     title: "RCJ Notification Bot",
     description: "Bot notifying teams about schedule and events (WhatsApp, Signal, Telegram)",
     from: "2020-09",
-    to: undefined,
+    to: "2022-01",
     images: {
       thumbnail: undefined,
     },
@@ -167,7 +167,7 @@ const projects = [
     title: "RCJ Server",
     description: "Back end for RCJ DSS to store runs and enable live results",
     from: "2020-01",
-    to: undefined,
+    to: "2022-01",
     images: {
       thumbnail: undefined,
     },
@@ -450,7 +450,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "53",
+      githubStars: "65",
     },
     contributed: true,
   },
@@ -467,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "279",
+      githubStars: "349",
     },
     contributed: true,
   },
@@ -481,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "202",
+      githubStars: "223",
     },
     contributed: true,
   },
@@ -495,7 +495,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "146",
+      githubStars: "174",
     },
     contributed: true,
   },
@@ -509,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "275",
+      githubStars: "302",
     },
     contributed: true,
   },
@@ -523,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "144",
+      githubStars: "154",
     },
     contributed: true,
   },
@@ -531,13 +531,13 @@ const projects = [
     title: "ion-tools",
     description: "Tools and utilities to make working with the ION network and using ION DIDs easy peasy lemon squeezy",
     from: "2021-08",
-    to: "2021-12",
+    to: "2023-03",
     images: {
       thumbnail: "./img/dif-400x150.png",
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "120",
+      githubStars: "135",
     },
     contributed: true,
   },
@@ -568,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "14.9k",
+      githubStars: "16.5k",
     },
     contributed: true,
   },
@@ -585,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "23.3k",
+      githubStars: "24k",
     },
     contributed: true,
   },
@@ -602,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "482",
+      githubStars: "523",
     },
     contributed: true,
   },
@@ -650,7 +650,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "152",
+      githubStars: "160",
     },
     contributed: true,
   },
@@ -668,7 +668,7 @@ const projects = [
     ],
     stats: {
       githubStars: 0,
-      citations: 1,
+      citations: 2,
     },
   },
   {
@@ -684,7 +684,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/logjam/blob/main/docs/tls-export-ciphers-logjam-demo-512-bit-firefox.mp4?raw=true", name: "Demo Video" },
     ],
     stats: {
-      githubStars: 0,
+      githubStars: "1",
     },
   },
   {
