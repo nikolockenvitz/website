@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "20",
+      githubStars: "22",
     },
   },
   {
@@ -467,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "349",
+      githubStars: "352",
     },
     contributed: true,
   },
@@ -481,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "223",
+      githubStars: "224",
     },
     contributed: true,
   },
@@ -509,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "302",
+      githubStars: "304",
     },
     contributed: true,
   },
@@ -523,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "154",
+      githubStars: "155",
     },
     contributed: true,
   },
@@ -568,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "16.5k",
+      githubStars: "16.6k",
     },
     contributed: true,
   },
@@ -585,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "24k",
+      githubStars: "24.1k",
     },
     contributed: true,
   },
@@ -602,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "523",
+      githubStars: "528",
     },
     contributed: true,
   },
@@ -697,6 +697,7 @@ const projects = [
     },
     links: [
       { url: "https://platypwnies.de/", name: "Platypwnies" },
+      { url: "https://ctftime.org/event/1511", name: "ctftime.org" },
       { url: "https://platypwnies.de/ctfs/htb-x-uni-ctf-2021-qualification/", name: "Writeups" }
     ],
     stats: {
