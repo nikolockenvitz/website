@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "SAP Addon",
-    description: "Firefox/Chrome Extension for SAP related webpages",
+    description: "Firefox/Chrome Extension for SAP internal webpages",
     from: "2020-03",
     to: undefined,
     images: {
@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "23",
+      githubStars: "27",
     },
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: "19",
+      githubStars: "20",
     },
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/qr-pwa", name: "GitHub" },
     ],
     stats: {
-      githubStars: "1",
+      githubStars: "2",
     },
   },
   {
@@ -188,7 +188,7 @@ const projects = [
     },
     links: [
       { url: "https://github.com/rcjberlin", name: "GitHub" },
-      { url: "https://robocup-junior.org/", name: "RCJ Berlin" },
+      { url: "https://junior.robocup.de/", name: "RoboCup Junior" },
     ],
     stats: {
       githubStars: 0,
@@ -268,7 +268,7 @@ const projects = [
       { url: "https://github.com/hackathon-sidn/cors-proxy", name: "GitHub" },
     ],
     stats: {
-      githubStars: "6",
+      githubStars: "8",
     },
   },
   {
@@ -450,7 +450,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "72",
+      githubStars: "83",
     },
     contributed: true,
   },
@@ -467,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "379",
+      githubStars: "414",
     },
     contributed: true,
   },
@@ -481,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "238",
+      githubStars: "258",
     },
     contributed: true,
   },
@@ -495,7 +495,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "186",
+      githubStars: "198",
     },
     contributed: true,
   },
@@ -509,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "309",
+      githubStars: "323",
     },
     contributed: true,
   },
@@ -523,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "162",
+      githubStars: "171",
     },
     contributed: true,
   },
@@ -537,7 +537,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "139",
+      githubStars: "140",
     },
     contributed: true,
   },
@@ -554,7 +554,7 @@ const projects = [
       { url: "https://github.com/michael-spengler/countries", name: "GitHub" },
     ],
     stats: {
-      githubStars: "8",
+      githubStars: "7",
     },
     contributed: true,
   },
@@ -568,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "17.2k",
+      githubStars: "18.6k",
     },
     contributed: true,
   },
@@ -585,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "24.5k",
+      githubStars: "25.2k",
     },
     contributed: true,
   },
@@ -602,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "550",
+      githubStars: "572",
     },
     contributed: true,
   },
@@ -650,7 +650,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "166",
+      githubStars: "176",
     },
     contributed: true,
   },
