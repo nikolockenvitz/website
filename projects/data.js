@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "28",
+      githubStars: "31",
     },
   },
   {
@@ -28,7 +28,7 @@ const projects = [
       { url: "https://github.com/fancy-flashcard/ffc", name: "GitHub" },
     ],
     stats: {
-      githubStars: "20",
+      githubStars: "19",
     },
   },
   {
@@ -196,7 +196,7 @@ const projects = [
   },
   {
     title: "RCJ Rescue Line Volunteer & Orga (German Open)",
-    description: "Supporting and organizing RCJ Rescue Line at RoboCup German Open Magdeburg/Kassel",
+    description: "Co-organizing RCJ Rescue Line at RoboCup German Open Magdeburg/Kassel/Nürnberg",
     from: "2018-04",
     to: undefined,
     timeString: "since 2018",
@@ -450,7 +450,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "87",
+      githubStars: "90",
     },
     contributed: true,
   },
@@ -467,7 +467,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "418",
+      githubStars: "446",
     },
     contributed: true,
   },
@@ -481,7 +481,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "259",
+      githubStars: "276",
     },
     contributed: true,
   },
@@ -495,7 +495,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "201",
+      githubStars: "215",
     },
     contributed: true,
   },
@@ -509,7 +509,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "329",
+      githubStars: "341",
     },
     contributed: true,
   },
@@ -523,7 +523,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "174",
+      githubStars: "186",
     },
     contributed: true,
   },
@@ -537,7 +537,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "139",
+      githubStars: "141",
     },
     contributed: true,
   },
@@ -568,7 +568,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "18.9k",
+      githubStars: "21.6k",
     },
     contributed: true,
   },
@@ -585,7 +585,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "25.2k",
+      githubStars: "25.9k",
     },
     contributed: true,
   },
@@ -602,7 +602,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "571",
+      githubStars: "599",
     },
     contributed: true,
   },
@@ -650,7 +650,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "176",
+      githubStars: "180",
     },
     contributed: true,
   },
@@ -684,7 +684,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/logjam/blob/main/docs/tls-export-ciphers-logjam-demo-512-bit-firefox.mp4?raw=true", name: "Demo Video" },
     ],
     stats: {
-      githubStars: "1",
+      githubStars: "2",
     },
   },
   {
