@@ -12,7 +12,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/sap-addon", name: "GitHub" },
     ],
     stats: {
-      githubStars: "31",
+      githubStars: "34",
     },
   },
   {
@@ -97,6 +97,22 @@ const projects = [
     links: [
       { url: "https://nikolockenvitz.de/decisionmatrix", name: "Decision Matrix" },
       { url: "https://github.com/nikolockenvitz/decision-matrix", name: "GitHub" },
+    ],
+    stats: {
+      githubStars: 0,
+    },
+  },
+  {
+    title: "Bingo",
+    description: "Simple PWA to generate random numbers for a Bingo game (offline support)",
+    from: "2024-12",
+    to: "2024-12",
+    images: {
+      thumbnail: "./img/bingo-640x240.png",
+    },
+    links: [
+      { url: "https://nikolockenvitz.de/bingo", name: "Bingo Web App" },
+      { url: "https://github.com/nikolockenvitz/tools/tree/master/bingo", name: "GitHub" },
     ],
     stats: {
       githubStars: 0,
@@ -450,7 +466,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/pfisterer/DHBW_LaTeX_Template", name: "GitHub" }],
     stats: {
-      githubStars: "90",
+      githubStars: "93",
     },
     contributed: true,
   },
@@ -467,7 +483,7 @@ const projects = [
       { url: "https://veramo.io/", name: "veramo.io" },
     ],
     stats: {
-      githubStars: "446",
+      githubStars: "464",
     },
     contributed: true,
   },
@@ -481,7 +497,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/uport-project/ethr-did", name: "GitHub" }],
     stats: {
-      githubStars: "276",
+      githubStars: "283",
     },
     contributed: true,
   },
@@ -495,7 +511,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ethr-did-resolver", name: "GitHub" }],
     stats: {
-      githubStars: "215",
+      githubStars: "223",
     },
     contributed: true,
   },
@@ -509,7 +525,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt", name: "GitHub" }],
     stats: {
-      githubStars: "341",
+      githubStars: "351",
     },
     contributed: true,
   },
@@ -523,7 +539,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/did-jwt-vc", name: "GitHub" }],
     stats: {
-      githubStars: "186",
+      githubStars: "192",
     },
     contributed: true,
   },
@@ -537,7 +553,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/decentralized-identity/ion-tools", name: "GitHub" }],
     stats: {
-      githubStars: "141",
+      githubStars: "144",
     },
     contributed: true,
   },
@@ -568,7 +584,7 @@ const projects = [
     },
     links: [{ url: "https://github.com/simple-icons/simple-icons", name: "GitHub" }],
     stats: {
-      githubStars: "21.6k",
+      githubStars: "22.4k",
     },
     contributed: true,
   },
@@ -585,7 +601,7 @@ const projects = [
       { url: "https://github.com/signalapp/Signal-Android", name: "GitHub" },
     ],
     stats: {
-      githubStars: "25.9k",
+      githubStars: "26.9k",
     },
     contributed: true,
   },
@@ -602,7 +618,7 @@ const projects = [
       { url: "https://github.com/AndreAle94/moneywallet", name: "GitHub" },
     ],
     stats: {
-      githubStars: "599",
+      githubStars: "611",
     },
     contributed: true,
   },
@@ -610,7 +626,7 @@ const projects = [
     title: "OpenStreetMap",
     description: "Improving and enhancing the data of OpenStreetMap",
     from: "2018-05",
-    to: undefined,
+    to: "2022-08",
     images: {
       thumbnail: "./img/osm-streetcomplete.png",
     },
@@ -627,7 +643,7 @@ const projects = [
     title: "Common Voice",
     description: "Recording and validating voice clips for Mozilla's Common Voice project",
     from: "2018-06",
-    to: undefined,
+    to: "2023-07",
     images: {
       thumbnail: "./img/common-voice-mars.png",
     },
@@ -650,7 +666,7 @@ const projects = [
       { url: "https://github.com/Zamiell/hanabi-live", name: "GitHub" },
     ],
     stats: {
-      githubStars: "180",
+      githubStars: "186",
     },
     contributed: true,
   },
@@ -668,7 +684,7 @@ const projects = [
     ],
     stats: {
       githubStars: 0,
-      citations: 2,
+      citations: 3,
     },
   },
   {
@@ -684,7 +700,7 @@ const projects = [
       { url: "https://github.com/nikolockenvitz/logjam/blob/main/docs/tls-export-ciphers-logjam-demo-512-bit-firefox.mp4?raw=true", name: "Demo Video" },
     ],
     stats: {
-      githubStars: "2",
+      githubStars: "1",
     },
   },
   {
